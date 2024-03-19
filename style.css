@@ -1,0 +1,306 @@
+:root{
+    --base-color:#37517E;
+}
+
+.front{
+    background-color: var(--base-color);
+}
+
+.anime{
+    animation: move 2.5s linear infinite alternate-reverse;
+}
+
+.icons{
+    filter: grayscale(100%);
+    transition: all .4s;
+}
+
+.icons:hover{
+    filter: grayscale(0);
+    scale: 1.2;
+}
+
+.abt{
+    color: var(--base-color);
+}
+
+.gray{
+    width: 120px;
+    height: 2px;
+    background-color: lightgray;
+    position: relative;
+}
+
+.blue{
+    width: 40%;
+    height: 4px;
+    background-color:var(--bs-info);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.eum{
+    color:var(--base-color);
+}
+
+.vol{
+    color: var(--base-color);
+}
+
+.ser{
+    color: var(--base-color);
+}
+
+.lor{
+    color: var(--base-color);
+    transition: all .3s;
+}
+
+.rem{
+    color: var(--base-color);
+}
+
+.action{
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(https://bootstrapmade.com/demo/templates/Arsha/assets/img/cta-bg.jpg) fixed center center;
+
+}
+
+.white{
+    border: 1px solid white;
+    color: white;
+    margin-left: 2rem;
+}
+
+.hov{
+    transition: all .5s;
+}
+
+.cap1{
+    background-color: rgba(55, 81, 126, .5) !important;
+    width: 100%;
+    opacity: 0;
+    transition: all .4s;
+}
+
+.border3{
+    border-top: 2px solid var(--bs-info) !important;
+    border-bottom: 2px solid var(--bs-info) !important;
+}
+
+.img1:hover .cap1{
+    opacity: 1;   
+}
+
+.img1{
+    overflow: hidden;
+}
+
+.sac{
+    transition: all .4s;
+}
+
+.icons1{
+    padding: .8rem;
+    background-color: #EFF2F8;
+    color: var(--base-color);
+    clip-path: circle();
+}
+
+.cen{
+    transition: all .3s;
+}
+
+.N{
+    transition:all .099999s ;
+}
+
+.btn1:hover .Learn{
+    color: white !important;
+}
+
+.tops{
+    border-top: 3px solid var(--bs-info) !important;
+}
+
+.HC{
+    transition: all .3s;
+}
+
+.HC:hover{
+    transform: translateY(-5px);
+}
+
+.N:hover{
+    border-bottom: 1px solid var(--bs-info);
+}
+
+.con:hover .cen{
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+
+.con:hover .lor{
+    color: var(--bs-info);
+    cursor: pointer;
+}
+
+.img1:hover .sac{
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.hov:hover{
+    background-color:var(--bs-info) ;
+    color: white !important;
+    cursor: pointer;
+}
+
+.get:hover{
+    color: white !important;
+}
+
+.teams-icon
+{
+    color: #fdffff;
+    background-color: #94d2ed;
+    clip-path: circle();
+    transition:  all .3s;
+}
+.nav-right-icons
+{
+    color: #47B2E4;
+
+}
+.last-texts
+{
+    font-size: 15px;
+    font-weight: normal;
+}
+.last-nav-p
+
+{
+    color: white;
+}
+.last-nav-p a
+
+{
+   text-decoration: none;
+   color: #0daff5;
+   transition: all .3s;
+
+}
+.last-nav-p a:hover
+
+{
+    color: #2b92be;
+
+}
+
+.last-nav-div
+{
+    background-color: #37517e;
+}
+.last-nav-h5
+{
+    color: white;
+}
+.last-nav-span
+{
+    color: #0daff5;
+}
+.nav-list
+{
+    list-style: none;
+    line-height: 2.5rem;
+}
+.nav-list a
+{
+    text-decoration: none;
+    color: rgb(111, 108, 108);
+    transition: all .3s;
+}
+.nav-list a:hover
+{
+    
+  color: #0daff5;
+}
+
+.p-arsha-p
+{
+    font-size: 14px;
+}
+.p-arsha
+{
+    font-size: 14px;
+}
+.arsha-p
+{
+    color: #37517e;
+}
+.news-button 
+{
+    right: 33%;
+}
+.news-le-h2
+{
+    color: #37517e;
+}
+.teams-icon:hover
+{
+background-color: #0daff5;
+color: black;
+transform: translateY(-10px);
+}
+.teams-h4
+{
+    color: #37517e;
+   
+}
+.teams-p
+{
+    color:#6182C0;
+    font-size: 15px;
+}
+
+@keyframes move {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(5%)
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .landing{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+    }
+
+    .anime{
+        animation: pasued;
+    }
+
+    .btns{
+        justify-content: center;
+    }
+
+    .front{
+        height: 100vh;
+        }
+
+    .action{
+        padding: 0rem;
+    }
+
+    .cen{
+        text-align: center;
+    }
+
+   
+}
